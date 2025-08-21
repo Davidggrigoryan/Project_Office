@@ -1,24 +1,24 @@
-# Excel Difference App
+# Приложение сравнения Excel
 
-This simple Tkinter application compares columns from two Excel reports by a common project name and calculates the difference between selected numeric columns.
+Простое приложение на Tkinter, которое сравнивает столбцы из двух Excel‑отчётов по общему названию проекта и вычисляет разницу между выбранными числовыми столбцами.
 
-## Features
-- Choose two Excel files for comparison.
-- Select project and value columns from each file.
-- Calculate differences and display results.
-- Save processed data to a new Excel file.
+## Возможности
+- Выбор двух Excel‑файлов для сравнения.
+- Выбор столбцов проекта и значений из каждого файла.
+- Вычисление разницы и отображение результата.
+- Сохранение обработанных данных в новый Excel‑файл.
 
-## Usage
-1. Run the application:
+## Использование
+1. Запустите приложение:
    ```bash
    python excel_diff_app.py
    ```
-2. Use the **Browse** buttons to select two report files.
-3. Choose matching project columns and value columns.
-4. Specify the output file and click **Compute Difference**.
-5. The resulting differences will be displayed and saved to the specified output file.
+2. С помощью кнопок **Выбрать** укажите два файла отчётов.
+3. Выберите соответствующие столбцы проекта и значений.
+4. Задайте файл для сохранения и нажмите **Вычислить разницу**.
+5. Полученные данные будут показаны и сохранены в указанный файл.
 
-## Requirements
+## Требования
 - pandas
 - openpyxl
-- tkinter (standard library)
+- tkinter (стандартная библиотека)
